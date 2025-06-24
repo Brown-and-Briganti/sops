@@ -1,0 +1,24 @@
+main:
+  - title: "Homology Modeling"
+    url: /homology-modeling/
+  - title: "About"
+    url: /about/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Pages"
+    url: /page-archive/
+  - title: "Collections"
+    url: /collection-archive/
+  - title: "External Link"
+    url: https://google.com
+    target: _blank
+
+homology-modeling-nav:
+  - title: "Homology Modeling"
+    children:
+      - title: "AlphaFold3"
+        url: /homology-modeling/alphafold3
+      - title: "Sequence Alignment"
+        url: /homology-modeling/sequence-alignment
