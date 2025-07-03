@@ -7,9 +7,6 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/high_qual_soup.png
-  actions:
-    - label: "Download"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo credit: **Jon!**"
 excerpt: "SOPs are modular materials that, if followed, help guide the production of standardized, replicable research."
 intro: 
