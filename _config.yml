@@ -18,14 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Brown Lab SOuP
+email: jonbrig@vt.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  SOPs are modular materials that, if followed, help guide the production of standardized, replicable research. Written by the Brown Lab.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://brown-and-briganti.github.io/bel-sops.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -40,6 +38,9 @@ plugins:
 
 include:
   - _pages
+
+after_footer_scripts:
+  - /assets/js/tablist-script.js
 
 # Exclude from processing.
 # The following items will not be processed, by default.

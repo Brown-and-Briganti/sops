@@ -4,7 +4,42 @@ title: "AlphaFold3"
 permalink: /homology-modeling/alphafold3/
 sidebar:
         nav: homology-modeling-nav
+jonlist: 
+  - title: Piper
+    language: python
+    code_content: |
+      print("Hello World");
+    text_content: |
+      Additional area under the code content where one
+      can add text that is also formatted in **markdown**.
+      You can add [links](https://qiujames.github.io/) or even images!
+      ![birdie!](/assets/images/favicon.ico)
+  - title: Jonathan
+    language: python
+    code_content: |
+      print("Hello World");
+    text_content: |
+      blah blah blah blah
+annelist: 
+  - title: Seven
+    language: python
+    code_content: |
+      print("Hello World");
+    text_content: |
+      Additional area under the code content where one
+      can add text that is also formatted in **markdown**.
+      You can add [links](https://qiujames.github.io/) or even images!
+      ![birdie!](/assets/images/favicon.ico)
+  - title: Anne
+    language: python
+    code_content: |
+      print("Hello World");
+    text_content: |
+      blah blah blah blah
 ---
+
+{% include tablist id="annelist" %}
+
 
 # AlphaFold3
 
@@ -27,6 +62,8 @@ Basic command and flag options are as follows:
 ### Run AlphaFold3
 
 Once you have generated the appropriate json file(s), initiate the alphafold python scripts by typing `python run_alphafold.py` using the `--help` flag to determine any flags desired for your specific model.
+
+{% include tablist id="jonlist" %}
 
 AlphaFold3 can be run either by use of this run_alphafold.py script *or* by directly calling AlphaFold by typing `alphafold3`. Using the latter option does not allow for multiple models to run in parallel as the .py script does, decreasing overall efficiency when being used in high throughput research. Therefore, we recommend *only directly calling AlphaFold to test the installation of the program*, and not for modeling studies.
 
