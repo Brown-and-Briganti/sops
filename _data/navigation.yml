@@ -9,8 +9,36 @@ main:
 
 homology-modeling-nav:
   - title: "Homology Modeling"
+    url: /homology-modeling/
+  - title: "Prepare"
+    children:
+      - title: "Sequence Alignment: UGENE"
+        url: /homology-modeling/sequence-alignment/
+  - title: "Explore"
+    children:
+      - title: "Similarity Percentage"
+        url: /homology-modeling/sequence-alignment
+  - title: "Generate"
     children:
       - title: "AlphaFold3"
-        url: /homology-modeling/alphafold3
-      - title: "Sequence Alignment"
-        url: /homology-modeling/sequence-alignment
+        url: /homology-modeling/alphafold3/
+      - title: "BOLTZ"
+        url: /homology-modeling/boltz/
+      - title: "Rosetta/Robetta"
+        url: /homology-modeling/robetta/
+  - title: "Validate"
+    children:
+      - title: "Validation Data Wrangling"
+        url: /homology-modeling/validation/
+      - title: "SwissModel"
+        url: /homology-modeling/swissmodel/
+      - title: "ProSA"
+        url: /homology-modeling/prosa/
+      - title: "Verify3D"
+        url: /homology-modeling/verify3d/
+      - title: "Choosing the Top Model"
+        url: /homology-modeling/topmodel/
+  - title: "Report"
+    children:
+      - title: "Protein Modeling Results Template"
+        url: /homology-modeling/template/

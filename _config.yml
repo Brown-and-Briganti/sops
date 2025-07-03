@@ -29,6 +29,8 @@ github_username:  jekyll
 
 # Build settings
 theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "air"
+
 plugins:
   - jekyll-feed
   - jekyll-include-cache
@@ -41,6 +43,9 @@ include:
 
 after_footer_scripts:
   - /assets/js/tablist-script.js
+  - https://cdn.jsdelivr.net/npm/mermaid@11.7.0/dist/mermaid.js
+  - /assets/js/mermaid.js
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
