@@ -22,16 +22,22 @@ title: Brown Lab SOuP
 email: jonbrig@vt.edu
 description: >- # this means to ignore newlines until "baseurl:"
   SOPs are modular materials that, if followed, help guide the production of standardized, replicable research. Written by the Brown Lab.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: https://brown-and-briganti.github.io/bel-sops.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://brown-and-briganti.github.io"
+baseurl: "/sops"
+repository: "brown-and-briganti/sops"
+
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: https://brown-and-briganti.github.io/sops.github.io # the base hostname & protocol for your site, e.g. http://example.com
+#repository: "brown-and-briganti/sops.github.io"
 twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes@4.27.1
 minimal_mistakes_skin: "air"
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-seo-tag
